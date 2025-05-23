@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santo Halder | Technical Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #007acc;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #007acc;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      margin-top: 30px;
+    }
+    section h2 {
+      font-size: 1.8rem;
+      color: #007acc;
+      margin-bottom: 15px;
+      border-left: 5px solid #007acc;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li::before {
+      content: '▶';
+      color: #007acc;
+      margin-right: 10px;
+    }
+    .highlight {
+      background: #e3f2fd;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="potfoli.jpg.png" alt="Santo Halder" class="profile-img" />
+      <h1>Santo Halder</h1>
+      <p>Age: 23 | Male | Student of Computer Science and Engineering</p>
+      <p><strong>Owner of this Technical Website</strong></p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I am a passionate and driven Computer Science and Engineering student. My interests span across full-stack development, problem-solving, and project-based learning (PBL). I love using technology to build impactful solutions and am continuously learning and experimenting with modern tools and frameworks.</p>
+    </section>
+
+    <section>
+      <h2>Skills & Technologies</h2>
+      <ul>
+        <li>Languages: C, C++, Python</li>
+        <li>Web Development: HTML5, CSS3</li>
+        <li>Database: MySQL</li>
+        <li>Tools: Git, GitHub, VS Code, Figma</li>
+        <li>Soft Skills: Communication, Teamwork, Critical Thinking</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Curricular & PBL Activities</h2>
+      <div class="highlight">
+        <strong>Smart Attendance System</strong> – Developed an RFID-based solution integrated with a web dashboard for real-time attendance tracking.
+      </div>
+      <div class="highlight">
+        <strong>Personal Portfolio Website</strong> – Created this website to reflect my personal, academic, and technical journey.
+      </div>
+      <div class="highlight">
+        <strong>Hackathons & Competitions</strong> – Competed in local and national hackathons, developing solutions under pressure and collaborating in diverse teams.
+      </div>
+      <div class="highlight">
+        <strong>AI Chatbot Project</strong> – Built a machine learning-powered chatbot that helps automate FAQs for an academic department.
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email:santohalder0830@email.com</p>
+      <p>Phone: +8801303314306</p>
+      <p>GitHub: <a href="https://github.com/santohalder" target="https://github.com/santohalder">github.com/santohalder</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/santohalder" target="https://linkedin.com/in/santohalder">linkedin.com/in/santohalder</a></p>
+    </section>
+
+    <footer>
+      &copy; 2025 Santo Halder. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
